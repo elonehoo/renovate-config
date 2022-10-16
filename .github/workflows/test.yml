@@ -20,5 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: latest
+      - name: Run Install package
+        run: pnpm install
       - name: run test
         run: pnpm run test
