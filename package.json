@@ -1,0 +1,14 @@
+{
+  "name": "@elonehoo/renovate-config",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Presets for Open Source Libraries",
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "renovate": "^32.238.3"
+  }
+}
