@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  renovate: ^32.238.3
+  renovate: ^32.238.4
 
 devDependencies:
-  renovate: 32.238.3
+  renovate: 32.238.4
 
 packages:
 
@@ -4116,8 +4116,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.238.3:
-    resolution: {integrity: sha512-B39iLzbtuqjlmdU6l9UsIF65GkcjVom5Ex7sS5xanLzw2UQL2PhZsDYdtIwVcMxtHlPdsS5u+WAc8UbvACuICg==}
+  /renovate/32.238.4:
+    resolution: {integrity: sha512-p8eHNpa611qrG15oyn1DghVAxDbOjZ6xo/xcHS5oFWptSuWHnYqN8G61IOZRZ4wFxWetHgbAVcT1TKJnsNqvmw==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
