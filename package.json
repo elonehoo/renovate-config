@@ -9,6 +9,6 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "devDependencies": {
-    "renovate": "^39.134.0"
+    "renovate": "^39.156.1"
   }
 }
