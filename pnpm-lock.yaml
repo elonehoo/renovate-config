@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   renovate:
-    specifier: ^41.24.0
-    version: 41.24.0(typanion@3.12.0)
+    specifier: ^41.32.1
+    version: 41.32.1(typanion@3.12.0)
 
 packages:
 
@@ -1557,7 +1557,7 @@ packages:
       fs-extra: 11.3.0
       toml-eslint-parser: 0.10.0
       upath: 2.0.1
-      zod: 3.25.67
+      zod: 3.25.74
     dev: true
 
   /@renovatebot/kbpgp@4.0.1:
@@ -2999,8 +2999,8 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /editorconfig@3.0.0:
-    resolution: {integrity: sha512-cU9vLVQ1YmDmLL047KkgQ3Yv9jSI6ZlqW4XjEdG0RrFhz7kYQ5lxD7SfhQci8g1TQu9iMA+54rRLe6yvWxXxcA==}
+  /editorconfig@3.0.1:
+    resolution: {integrity: sha512-k5NZM2XNIJfH/omUv0SRYaiLae4VRwg1ILW6xLOjuP4AQGAGcvzNij5imJ+m1rbzDIH0ov6EbH53BW96amFXpQ==}
     engines: {node: '>=20'}
     hasBin: true
     dependencies:
@@ -5261,8 +5261,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@41.24.0(typanion@3.12.0):
-    resolution: {integrity: sha512-0o51g3RiIsvI/N0JTblTL02xdL6SodqtqjLEn27C71R4P6BmeDHYXGfCICPxNnxjZrZgCQPaZNfcpmXKMZ7plw==}
+  /renovate@41.32.1(typanion@3.12.0):
+    resolution: {integrity: sha512-qZf4l9wPGg/5Of+/TuD0oX2tSA+2JHx7OhF4A+Z5zSY0FmRzjwKyOizlpk2UU9aMyRk2chgMTDo9DQT8GS0U7Q==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
     dependencies:
@@ -5318,7 +5318,7 @@ packages:
       dequal: 2.0.3
       detect-indent: 7.0.1
       diff: 8.0.2
-      editorconfig: 3.0.0
+      editorconfig: 3.0.1
       email-addresses: 5.0.0
       emoji-regex: 10.4.0
       emojibase: 16.0.0
@@ -5373,6 +5373,7 @@ packages:
       simple-git: 3.28.0
       slugify: 1.6.6
       source-map-support: 0.5.21
+      strip-json-comments: 5.0.2
       toml-eslint-parser: 0.10.0
       tslib: 2.8.1
       upath: 2.0.1
@@ -5381,7 +5382,7 @@ packages:
       vuln-vects: 1.1.0
       xmldoc: 2.0.2
       yaml: 2.8.0
-      zod: 3.25.67
+      zod: 3.25.74
     optionalDependencies:
       better-sqlite3: 12.2.0
       openpgp: 6.1.1
@@ -5772,6 +5773,11 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /strip-json-comments@5.0.2:
+    resolution: {integrity: sha512-4X2FR3UwhNUE9G49aIsJW5hRRR3GXGTBTZRMfv568O60ojM8HcWjV/VxAxCDW3SUND33O6ZY66ZuRcdkj73q2g==}
+    engines: {node: '>=14.16'}
+    dev: true
 
   /strnum@1.0.5:
     resolution: {integrity: sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==}
@@ -6291,8 +6297,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /zod@3.25.67:
-    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
+  /zod@3.25.74:
+    resolution: {integrity: sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==}
     dev: true
 
   /zwitch@2.0.4:
