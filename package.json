@@ -8,8 +8,8 @@
   },
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
-  "packageManager": "pnpm@12.15.0",
+  "packageManager": "pnpm@12.16.1",
   "devDependencies": {
-    "renovate": "^44.168.1"
+    "renovate": "^44.198.2"
   }
 }
