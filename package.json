@@ -10,6 +10,6 @@
   "license": "MIT",
   "packageManager": "pnpm@12.21.0",
   "devDependencies": {
-    "renovate": "^44.239.1"
+    "renovate": "^44.257.8"
   }
 }
